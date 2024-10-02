@@ -19,7 +19,7 @@ Here there are 2 classes for customer management.
 
    ### Product Management  
    There is only one class for procts management.  
-   Product: Used for all product info (id, name, price, stock, orders)  
+   1.Product: Used for all product info (id, name, price, stock, orders)  
       There is a couple routes associated with Product:  
         - (GET): used to retrive a product's info  
         - (POST): used to add a product to the database  

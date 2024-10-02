@@ -6,10 +6,10 @@ At the beginning, you will see a few "Schema" classes. These are simply for tran
 Here there are 2 classes for customer management.  
 1. Customer: Which is used for all the customer info (id, name, email, phone number, and orders)  
    There is a couple routes associated with Customer:  
-   1.(GET): used to retrieve a customer's info  
-   2.(POST): used add a customer to the database  
-   3.(PUT): used to update a customer's info  
-   4.(DELETE): used to delete a customer form the database  
+   - (GET): used to retrieve a customer's info  
+   - (POST): used add a customer to the database  
+   - (PUT): used to update a customer's info  
+   - (DELETE): used to delete a customer form the database  
 2. CustomerAccount: This class is similar but is used to store and keep track of one customer's log in information
    There is a couple routes associated with CustomerAccount:  
    - (GET): used to retrieve a customer account  

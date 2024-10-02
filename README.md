@@ -17,16 +17,27 @@ Here there are 2 classes for customer management.
    - (PUT): used to update a customer's account  
    - (DELETE): used to delete a customer's account form the database  
 
-   ### Product Management  
+   ### Product Management:    
    There is only one class for procts management.  
    1. Product: Used for all product info (id, name, price, stock, orders)  
       There is a couple routes associated with Product:  
-        - (GET): used to retrive a product's info  
+        - (GET): used to retrive a product's info (or multiple products info if you need more than one)   
         - (POST): used to add a product to the database  
         - (PUT): used to update a product  
         - (DELETE): used to delete a product  
  
-  ### 
+  ### Stock/Orders:  
+  Stock/Orders uses both the 'Procuct' and 'Order' class  
+  1. Order: takes the date, id of the order, and customer id a keeps them together  
+   There is 2 routes associates with Order:  
+   - (GET): used to retrieve am orders info  
+   - (POST): used to add an order  
+  2. Product: uses the stock part of the class to keep track of how much of an item is left  
+     There is a couple routes associated with Product  
+     - (GET): used to retrieve a product's stock  
+     - (PUT): used to update a product's stock  
+     - (POST): used to restock a product  
+  
   
    
 

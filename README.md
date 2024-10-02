@@ -1,6 +1,11 @@
 # Welcome to the E-Commerce-API   
 ## Here I will explain how all the functions work  
-At the beginning, you will see a few "Schema" classes. These are simply for translating information to and from any API youre using  
+At the beginning, you will 'app', 'db', and 'ma'.  
+'app' is for using the flask download  
+'db' allows SQL and flask to work together  
+'ma' allows marshmallow and flask to work together  
+all of these together make sure this application can communicate properly with the database  
+You will also see a few "Schema" classes. These are simply for translating information to and from any API youre using  
 
 ### Customer management:  
 Here there are 2 classes for customer management.  
@@ -36,7 +41,9 @@ Here there are 2 classes for customer management.
      There is a couple routes associated with Product  
      - (GET): used to retrieve a product's stock  
      - (PUT): used to update a product's stock  
-     - (POST): used to restock a product  
+     - (POST): used to restock a product
+    
+
   
   
    
